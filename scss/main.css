@@ -36,7 +36,7 @@ h3 {
 }
 
 .header {
-  background-image: linear-gradient(#CC4B4B, #CC4BC2, #7D4BCC, #504BCC);
+  background-image: linear-gradient(#f8b2b2, #f4a1ed, #834ed7);
   display: flex;
   align-items: center;
   min-height: 100px 0;
@@ -322,15 +322,6 @@ h3 {
   color: #181713;
   font-size: 40px;
   margin-bottom: 10px;
-}
-
-.borrar {
-  background-color: #8DC84B;
-  border-radius: 50px;
-  padding: 5px 10px;
-  color: #FFFFFF;
-  font-weight: 800;
-  cursor: pointer;
 }
 
 @media (max-width: 991px) {
