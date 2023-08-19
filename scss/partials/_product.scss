@@ -1,0 +1,61 @@
+
+
+
+//secection de productos del index //
+
+.products {
+    padding: 0 0 100px 0;
+    text-align: center;
+
+    .h2-botton  {
+        margin-top: 100px;
+    }
+
+    .h2-top {
+        margin-bottom: 100px;
+    }
+    & h2 {
+        font-size: 40px;
+        color:$colorprincipal;
+        text-transform: capitalize;
+    }
+
+            .product {
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 35px;
+
+            & img {
+                width: 150px;
+                height: 150px;
+                margin-bottom: 10PX;  
+
+                transition: 0.5s;
+            }
+
+            & img:hover {
+                transform: scale(1.5);
+            }
+
+            & h3 {
+                color:#2b2a2a;
+            }
+
+            & p {
+                font-size: 15px;
+                margin: 0;
+                color: $colorprincipal;
+                font-weight: 600;
+            }
+        }
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+
+// main-productos //
+

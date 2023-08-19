@@ -1,0 +1,30 @@
+$colorprincipal: #181713;
+$colorblanco: #FFFFFF;
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink {
+ 50% {border-color: transparent;}
+}
+
+
+$coloresSection: (
+    sn: rgb(34, 31, 31),
+    sg: rgb(43, 43, 43)
+);
+
+@each $colorSection, $color in $coloresSection {
+
+    .info__section-#{$colorSection} {
+        background-color: $color;
+    }
+}
+
+@for $numero from 3 through 4 {
+    .t-#{$numero}{
+        width: $numero * 10%;
+    }
+}
+

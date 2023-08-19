@@ -1,0 +1,48 @@
+.main-diseños {
+    margin: 0;
+    background-color: $colorprincipal;
+    
+
+    & h2 {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        color: $colorblanco;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    .row {
+        margin-inline: 40px;
+        display: flex;
+        padding: 5px;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+
+        .column {
+            flex: 25%;
+            padding: 5px;
+
+            & img {
+                width: 100%;
+                margin-top: 5px;
+            }
+        }
+    }
+    
+}
+
+       
+        
+
+
+
+       
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+.footer {
+    padding: 50px 0;
+    background-image: linear-gradient( #f8b2b2, #f4a1ed, #7D4BCC);
+
+    &-content {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.link ul {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    }
+
+.link a i{
+    color: $colorprincipal;
+    font-size: 40px;
+    margin-bottom: 10px;
+
+
+}

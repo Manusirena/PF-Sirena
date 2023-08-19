@@ -1,0 +1,24 @@
+.oferts {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .ofert-1 {
+        text-align: center;
+        flex-basis: calc(25% - 20px);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        padding: 35px;
+
+        .ofert-1 img {
+            width: 140px;
+            margin-bottom: 10px;
+        }
+
+        & p {
+            font-size: px;
+            margin: 0;
+            font-weight: 600;
+            color: #181713;
+        }
+    }
+}

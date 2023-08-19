@@ -1,0 +1,111 @@
+
+@for $numero from 1 through 3 {
+    .section-#{$numero} {
+        width: $numero * 10%;
+    }
+}
+
+.info__main {
+    border: 1px solid white;
+    background-color: $colorprincipal;
+
+    & section {
+        display: flex;
+
+        & div {
+            margin: 30px;
+            padding: 10px;
+
+            & p {
+                color: $colorblanco;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.t-4  {
+   & h2 {
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+   color: $colorblanco;
+   font-size: 30px;
+   }
+
+   & p {
+    
+    
+    & a {
+        color: rgb(183, 183, 183);
+        font-weight: 600;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }   
+   }
+
+   & span {
+    color: $colorblanco;
+    font-size: 20px;
+    &:hover {
+        transform: scale(1.2);
+    }
+
+    & a {
+        padding-left: 20px;
+        color: rgb(138, 138, 138);
+        &:hover {
+            text-decoration: underline;
+            font-weight: 600;
+        }
+    }
+   }
+}
+
+
+
+.foto-info {
+    width: auto;
+    border-radius:  5px;
+}
+@media (max-width: 800px) {
+
+    .info__main {
+        & section {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            & div {
+                width: 60%;
+            }
+        }
+    }
+
+    .t-4 {
+        & h2 {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    .info__main {
+        & section {
+            & div {
+                & p {
+                  font-size: 1rem;  
+                }
+            }
+        }
+    }
+
+    .t-4 {
+        & h2 {
+            margin: 0;
+            font-size: 16px;
+        }
+    }
+} 
